@@ -73,7 +73,18 @@ body{
     margin-top: 1%;
 
     height: 60%;
-    overflow: auto;
+    overflow-y: auto;
+   
+}
+
+.imgaside{
+
+    
+    width: 100%; /* Força a imagem a ocupar toda a largura disponível */
+    box-sizing: border-box;
+    
+    padding: 10px;
+    
 }
 
 .item:nth-child(5)
