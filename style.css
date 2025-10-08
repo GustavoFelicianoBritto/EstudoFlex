@@ -80,20 +80,45 @@ body{
 .imgaside{
 
     
-    width: 100%; /* Força a imagem a ocupar toda a largura disponível */
+    width: 100%;
+    height: auto;
+    
+    
     box-sizing: border-box;
     
     padding: 10px;
     
 }
 
-.item:nth-child(5)
+.imgdown{
+
+    height: 100%;
+    width: auto;
+
+    box-sizing: border-box;
+    
+    padding: 10px;
+
+}
+
+.item:nth-child(5) /*banner bottom*/
 {   
     order: 4;
     width: 80%;
     height: 20%;
     align-self: auto;
     background-color: yellow;
+
+    display: flex;
+    flex-direction: row;
+
+    overflow-y:hidden ;
+    overflow-x: scroll;
+
+
+    justify-content: center;
+
+    
 
 }
 
